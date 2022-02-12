@@ -1,0 +1,156 @@
+.pushable {
+    background: #f4af1b;
+    border-radius: 12px;
+    border: 2px solid #f4af1b;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    width: 100%;
+  }
+  .front {
+    display: block;
+    padding: 24px 24px;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background: #00154F;
+    transform: translateY(-6px);
+  }
+  
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+  
+  /* .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  #container {
+      display: flex;
+      flex-direction: column;
+      height:550px;
+      width: 400px;
+      border: 40px solid #00154F;
+      overflow: hidden;
+  }
+  
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      height: 100vh;
+      background: #121212;
+  }
+  
+  #buttonContainer {
+    display: flex;
+    width: auto;
+    height: auto;
+    border-top: 5px solid #f4af1b;
+  }
+  
+  #display {
+    text-align: center;
+    height: 150px;
+    font-size: 3.1rem;
+    color: red;
+    font-weight: bolder;
+    text-align: end;
+    border-left: 2px solid #f4af1b;
+    border-right: 2px solid #f4af1b;
+    border-bottom: 2px solid #f4af1b;
+    overflow: hidden;
+  }
+  
+  #displayMini {
+    font-size: 1.585rem;
+    text-align: right;
+    color: white;
+    font-weight: bolder;
+    border-left: 2px solid #f4af1b;
+    border-right: 2px solid #f4af1b;
+    border-top: 2px solid #f4af1b;
+  }
+  
+  #one {
+    color: red;
+  }
+  #two {
+    color: red;
+  }
+  #three {
+    color: red;
+  }
+  #four {
+    color: red;
+  }
+  #five {
+    color: red;
+  }
+  #six {
+    color: red;
+  }
+  #seven {
+    color: red;
+  }
+  #eight {
+    color: red;
+  }
+  #nine {
+    color: red;
+  }
+  #zero {
+      color: red;
+  }
+   #clear {
+       color: white;
+   }
+  
+  #back {
+    color: white;
+  }
+  #factorial {
+    color: white;
+  }
+  #squared {
+    color: white;
+  }
+  #point {
+    color: white;
+  }
+  #division{
+    color: white;
+  }
+  #times {
+    color: white;
+  }
+  #minus {
+    color: white;
+  }
+  #plus {
+    color: white;
+  }
+  #equals {
+    color: white;
+  }
